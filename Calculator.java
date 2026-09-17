@@ -108,6 +108,7 @@ public class Calculator {
         });
 
         // Operator buttons
+        //handle operator operations and store the first number and operator
 
         buttonPlus.addActionListener(e -> {
             num1 = Double.parseDouble(display.getText());
